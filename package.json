@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "sass boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path src src/main.scss dist/main.css",
+    "watch-css": "nodemon --watch src -e scss -x \"npm run build-css\"",
+    "livereload": "browser-sync start --server --files \"*.html, dist/*.css\""
+  },
+  "keywords": [
+    "sass",
+    "templating"
+  ],
+  "author": "Andrei B.",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1"
+  }
+}
