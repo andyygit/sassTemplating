@@ -11,5 +11,5 @@ scripts:
     "watch-css": "nodemon --watch src -e scss -x \"npm run build-css\"",
     "livereload": "browser-sync start --server --files \"*.html, dist/*.css\""
 ```
-se ruleasa doar al doilea - watch ce ruleaza implicit build-css
-"livereload se ruleaza intr-un terminal separat pt watch frontend"
+only run watch-css which will call build-css implicitly
+will run "livereload" in a separate terminal for frontend watch on .html and .css files.
