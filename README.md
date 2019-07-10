@@ -1,6 +1,10 @@
 # sassTemplating
 ### templating with sass and browsersync
 
+se creeaza
+```
+src/main.scss
+```
 scripts:
 ```
     "build-css": "node-sass --include-path src src/main.scss dist/main.css",
@@ -9,4 +13,3 @@ scripts:
 ```
 se ruleasa doar al doilea - watch ce ruleaza implicit build-css
 "livereload se ruleaza intr-un terminal separat pt watch frontend"
-
