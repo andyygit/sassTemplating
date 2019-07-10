@@ -1,7 +1,7 @@
 # sassTemplating
 ### templating with sass and browsersync
 
-se creeaza
+create:
 ```
 src/main.scss
 ```
